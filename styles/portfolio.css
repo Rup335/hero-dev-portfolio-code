@@ -10,6 +10,10 @@
 header{
     background-color: #ffe6d5;
     padding-top: 50px;
+    background: url("../images/developer.png"),url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    
+    background-position: top left,bottom right;
 }
 
 *{
@@ -61,6 +65,43 @@ nav .menu a{
     border-radius: 5px;
     font-size: 20px;
     color: white;
+    cursor: pointer;
+}
 
+#banner{
+ /* border: 1px solid red; */
+ margin: 47px 38px 223px 280px ;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+#banner .banner-content{
+    max-width: 700px;
 
 }
+
+#banner .banner-content h2{
+    font size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;}
+
+#banner .banner-content h1{
+        font-size: 100px;
+        font-weight: bold;
+        color: #181818;
+        margin-bottom: 50px;
+}
+
+    #banner .banner-content p{
+        font-size: 18px;
+        color: #757575;
+        line-height: 30px;
+        margin-bottom: 30px;
+        
+
+}
+
+
+
